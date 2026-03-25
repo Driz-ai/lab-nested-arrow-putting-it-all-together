@@ -35,7 +35,7 @@
 
 5. **Arrow function checks and counts password**
    - The Arrow Function will check to see if the password is correct or not. It will do this by:
-      - Incrementing `attemptCount` by 1
+      - Incrementing `  by 1
       - Checks to see if `passwordAttempt` matches the password in `userInfo`
         - If they do match and the login attempt is less then 3, returns a message saying `Login successful`
         - If they do not match or the user has attempted to login more then 3 times, return one of the messages depending on the situation.
